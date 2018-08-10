@@ -13,6 +13,7 @@ def assign_rooms(array) #take an array of guests and creates a new array that as
 end
 
 def printer(attendees)
-  printer_list = assign_rooms(batch_badge_creator(attendees))
-  puts printer_list
+  # printer_list = assign_rooms(batch_badge_creator(attendees))
+  # puts printer_list
+  batch_badge_creator(attendees)
 end
