@@ -6,8 +6,8 @@ def batch_badge_creator(array) #takes in an array of names, iterates over each a
   array.map{|attendee_name| badge_maker(attendee_name)}
 end
 
-def assign_rooms(array)
+def assign_rooms(array) #take an array of guests and creates a new array that assigns each of them a room number
   room_assignments = []
-  array.each_index{|room_number| room_assignments << puts "Hello, #{array[room_number]}! You'll be assigned to room #{room_number + 1}!"}
+  array.each_index{|room_number| room_assignments << "Hello, #{array[room_number]}! You'll be assigned to room #{room_number + 1}!"}
   room_assignments
 end
