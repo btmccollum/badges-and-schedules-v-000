@@ -13,6 +13,5 @@ def assign_rooms(array) #take an array of guests and creates a new array that as
 end
 
 def printer(attendees)
-  badge_maker(attendees)
-  assign_rooms(array)
+  assign_rooms(badge_maker(attendees))
 end
