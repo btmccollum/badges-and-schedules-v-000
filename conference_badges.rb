@@ -11,3 +11,8 @@ def assign_rooms(array) #take an array of guests and creates a new array that as
   array.each_index{|room_number| room_assignments << "Hello, #{array[room_number]}! You'll be assigned to room #{room_number + 1}!"}
   room_assignments
 end
+
+def printer
+  badge_maker(name)
+  assign_rooms(array)
+end
