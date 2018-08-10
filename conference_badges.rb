@@ -7,5 +7,4 @@ def batch_badge_creator(array)
   # array.each{|attendee_name| attendee_array << badge_maker(attendee_name)}
   # attendee_array
   array.map{|attendee_name| badge_maker(attendee_name)}
-  array
 end
