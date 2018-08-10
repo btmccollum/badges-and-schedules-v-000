@@ -12,7 +12,7 @@ def assign_rooms(array) #take an array of guests and creates a new array that as
   room_assignments
 end
 
-def printer
+def printer(attendees)
   badge_maker(name)
   assign_rooms(array)
 end
